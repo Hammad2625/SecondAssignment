@@ -20,8 +20,8 @@ namespace SecondAssignment
             }
 
             int average = x / 10;
-            Console.WriteLine($"The sum of the numbers is {x}");
-            Console.WriteLine($"The average of the numbers is {average}");
+            Console.WriteLine("The sum of the numbers is {0}", x);
+            Console.WriteLine("The average of the numbers is {0}", average);
         }
     }
 }
